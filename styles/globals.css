@@ -1,16 +1,21 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+/* In your CSS */
+:root {
+  --color-primary: #151617;
+  --color-secondary: #F1E7D0;
+  --link-color-inactive: #CCCCCC;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+@tailwind base;
+@tailwind components;
+.body{
+  @apply bg-primary
 }
-
-* {
-  box-sizing: border-box;
+.link-color{
+  @apply cursor-pointer text-link_inactive
 }
+.current-link{
+  @apply text-base font-semibold text-secondary
+}
+.logo{
+  @apply text-white text-xl font-extrabold
+}
+@tailwind utilities;
