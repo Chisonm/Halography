@@ -28,7 +28,9 @@
     align-items: center;
     & .nav-link{
          margin: 0 1em;
-
+         @include for-phone-only{
+            margin: 0 .4em;
+        }
          & .link-item{
              color: $link-color-inactive;
              font-size: .9em;
@@ -36,6 +38,10 @@
              &:hover{
                 color: $accent-color;
              }
+             @include for-phone-only{
+                font-size: .5em;
+                font-weight: 900;
+            }
          }
          & .current-link{
             color: $accent-color;
@@ -43,18 +49,9 @@
             font-weight: 800;
 
             @include for-phone-only{
-                font-size: .3em;
+                font-size: .6em;
                 font-weight: 900;
             }
         }
-    }
-
-@include for-phone-only{
-        .nav-link{
-        margin: 0 .4em;
-    }
-    .link-item{
-        font-size: .2em;
-    }
     }
 }
