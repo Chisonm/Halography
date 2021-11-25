@@ -1,0 +1,59 @@
+.hero-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+@include for-phone-only {
+    .hero-container{
+        width: 90%;
+        margin: 0 auto;
+        padding: 1em 0;
+    }
+}
+.hero-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3em;
+
+        @include for-phone-only {
+            grid-template-columns: repeat(1,1fr);
+        }
+            & h1{
+                color: $accent-color;
+                font-size: 3.9em;
+                font-weight: 900;
+                margin-bottom: .2em;
+                // letter-spacing: .3em;
+                @include for-phone-only {
+                    font-size: 2em;
+                    letter-spacing: .3em;
+
+                }
+            }
+            & p{
+                color: $accent-color;
+                font-weight: 500;
+                font-size: 1.4em;
+                line-height: 1.7;
+                @include for-phone-only {
+                    font-size: 1em;
+                    letter-spacing: 3px;
+                }
+            }
+}
+
+.hero-image{
+    width: 70%;
+    margin: 0 auto;
+    & img{
+        border-radius: 20px;
+    }
+
+    @include for-phone-only {
+        width: 100%;
+        & img{
+            border-radius: 0px;
+        }
+
+    }
+}

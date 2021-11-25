@@ -9,20 +9,20 @@ function Navbar() {
     // {router.pathname == "/" ? 'logo' : ''
     return (
         <>
-            <div className="py-5 mx-auto md:container">
-                <nav className="flex items-center justify-between mx-5">
+            <div className="navbar-container">
+                <nav className="nav-flex">
                     <Link href="/">
                         <a className="logo">
-                            Halography
+                            Halography 📸
                         </a>
                     </Link>
 
-                    <ul className="flex items-center justify-between">
+                    <ul className="nav-menu">
                         {MenuItems.map((linkItem, index) => {
                             return (
-                                <li key={index}>
+                                <li className="nav-link" key={index}>
                                     <Link href={linkItem.url} >
-                                        <a className={`link-color hover:text-secondary mx-3 ${ router.asPath === linkItem.url
+                                        <a className={`link-item ${ router.asPath === linkItem.url
                                         ? "current-link"
                                         : "text-secondary-300"}`}>
                                          {linkItem.label}</a>

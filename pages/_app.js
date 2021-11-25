@@ -1,13 +1,14 @@
-import '../styles/globals.css'
-
+import '../styles/globals.scss'
 import Layout from '../components/Layout/Layout'
-import 'tailwindcss/tailwind.css'
+import { AnimatePresence } from "framer-motion";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router  }) {
   return (
+    <AnimatePresence exitBeforeEnter>
     <Layout>
-      <Component {...pageProps} />
+      <Component {...pageProps} key={router.route} />
     </Layout>
+    </AnimatePresence>
   )
 }
 
