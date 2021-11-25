@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../components/Hero/Hero'
 
-import WithTransition from "../HOC/withTransition";
+import WithTransition from "../Hoc/WithTransition";
 
 function Home() {
   return (
