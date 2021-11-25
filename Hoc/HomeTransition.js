@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 
-const WithTransition = (OriginalComponent) => {
+const HomeTransition = (OriginalComponent) => {
   return () => (
     <>
       <OriginalComponent />
@@ -22,4 +22,4 @@ const WithTransition = (OriginalComponent) => {
   );
 };
 
-export default WithTransition;
+export default HomeTransition;
