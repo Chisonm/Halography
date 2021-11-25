@@ -39,17 +39,22 @@
          }
          & .current-link{
             color: $accent-color;
-            font-size: 1em;
+            font-size: .8em;
             font-weight: 800;
+
+            @include for-phone-only{
+                font-size: .3em;
+                font-weight: 900;
+            }
         }
     }
 
-    @include for-phone-only{
+@include for-phone-only{
         .nav-link{
         margin: 0 .4em;
     }
     .link-item{
-        font-size: .3em;
+        font-size: .2em;
     }
     }
 }
