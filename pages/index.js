@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../components/Hero/Hero'
-import WithTransition from '../Hoc/WithTransition'
+import HomeTransition from '../Hoc/WithTransition'
 
 function Home() {
   return (
@@ -16,4 +16,4 @@ function Home() {
   )
 }
 
-export default WithTransition(Home);
+export default HomeTransition(Home);
