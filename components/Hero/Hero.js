@@ -5,13 +5,7 @@ import heroImage from "../../public/Hallography/Professional Portraits/MFK_7997.
 
 
 function Hero() {
-    const [hero, setHeroData] = React.useState(heroData);
-
-    React.useEffect(() => {
-        setHeroData(hero)
-    }, []);
-
-    return (
+       return (
         <div className="">
             <div className="hero-content">
                 <div className="hero-container">
