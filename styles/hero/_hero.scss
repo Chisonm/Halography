@@ -26,7 +26,7 @@
                 // letter-spacing: .3em;
                 @include for-phone-only {
                     font-size: 2em;
-                    letter-spacing: .2em;
+                    // letter-spacing: .2em;
 
                 }
             }
@@ -37,7 +37,7 @@
                 line-height: 1.7;
                 @include for-phone-only {
                     font-size: 1em;
-                    letter-spacing: 2px;
+                    letter-spacing: 1px;
                 }
             }
 }
