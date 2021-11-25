@@ -39,17 +39,17 @@
                 color: $accent-color;
              }
              @include for-phone-only{
-                font-size: .5em;
+                font-size: .7em;
                 font-weight: 900;
             }
          }
          & .current-link{
             color: $accent-color;
-            font-size: .8em;
+            font-size: 1em;
             font-weight: 800;
 
             @include for-phone-only{
-                font-size: .6em;
+                font-size: .8em;
                 font-weight: 900;
             }
         }
