@@ -2,6 +2,7 @@ import React from 'react'
 import { heroData } from './heroData'
 import Image from 'next/image'
 import heroImage from "../../public/Hallography/Professional Portraits/MFK_7997.jpg";
+import Button from '../Button/Button';
 
 
 function Hero() {
@@ -13,6 +14,7 @@ function Hero() {
                  <p>_ Welcome To Halography Page❤️</p>
                  <p>_This gallery feed is just for you ❤️</p>
                  <p>Weddings/Fashion/Portraits,etc.</p>
+                 <Button text="Contact me" style={{color: '#03845D',backgroundColor: '#F1E7D0'}}/>
                 </div>
                 <div className="hero-image">
                     <Image src={heroImage} alt="steve" priority/>
