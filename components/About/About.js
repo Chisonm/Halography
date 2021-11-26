@@ -12,7 +12,7 @@ function About() {
                     <p>Halograpy is a photography page where ,
                         creating new things is a new normal for us,
                         we are always creating ideas, 
-                        that's why we try as much as possible to give you the best of our creativity.</p>
+                         {`that's`} why we try as much as possible to give you the best of our creativity.</p>
                     <Button text="Explore Our Work" style={{color: '#F1E7D0',backgroundColor: '#03845D'}}/>
                 </div>
                 <div className="about-image">

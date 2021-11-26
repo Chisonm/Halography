@@ -10,7 +10,7 @@
     gap: 1em;
     padding-bottom: 0;
     & .about-container{
-        width: 70%;
+        width: 80%;
         margin: 7em auto;
         & h1{
             font-size: 2em;
@@ -37,11 +37,12 @@
             font-stretch: expanded;
             margin-bottom: 2.5em;
             @include for-phone-only {
-                
+                word-spacing: 1px; 
+                letter-spacing: 0px;
             }
         }
         @include for-phone-only {
-            width: 85%;
+            width: 90%;
             margin: 3em auto;
         }
     }

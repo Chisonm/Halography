@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;500;600&family=Fraunces:wght@700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;500;600&family=Fraunces:wght@700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 .body{
     background: $primary-color;
   }
   
   ul,li{
     list-style: none;
+    font-family: 'Rubik', sans-serif;
   }
 a{
   text-decoration: none;
