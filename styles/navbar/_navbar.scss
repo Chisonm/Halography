@@ -36,7 +36,7 @@
     & .nav-link{
          margin: 0 2.5em;
          @include for-phone-only{
-            margin: 0 1em;
+            margin: 0 .7em;
         }
          & .link-item{
              color: $link-color-inactive;
