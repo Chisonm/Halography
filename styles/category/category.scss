@@ -12,6 +12,7 @@
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 16px;
+    transition: .4s;
     @include for-phone-only {
          padding: 10px 20px;
          margin-right: .5em;  
@@ -22,6 +23,7 @@
 .active-tab{
     color: $secondary-color;
     background: #F1E7D0;
+    transition: .4s;
 }
 .inactive-tab{
     border: 1px solid #F1E7D0;
