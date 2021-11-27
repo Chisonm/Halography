@@ -1,5 +1,5 @@
 .category-container{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     padding: 5em 0;
 }
@@ -15,7 +15,7 @@
     transition: .4s;
     @include for-phone-only {
          padding: 10px 20px;
-         margin-right: .5em;  
+         margin-right: .8em;  
          font-size: 12px;
 
     }
