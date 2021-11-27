@@ -1,6 +1,8 @@
 import React from 'react'
 import { TabPanel, useTabs } from 'react-headless-tabs';
 import tabImage from '../../public/Hallography/Professional Portraits/DSC_0017.jpg'
+import tabImage2 from '../../public/Hallography/Professional Portraits/DSC_0026.jpg'
+import tabImage3 from '../../public/Hallography/Professional Portraits/DSC_0030-Recovered-Recovered.jpg'
 import Image from 'next/image'
 function Category() {
     const [selectedTab, setSelectedTab] = useTabs([
@@ -65,7 +67,7 @@ function Category() {
                 <TabPanel hidden={selectedTab !== 'Wedding'}>
                     <div className="pane-image">
                         <div className="image-wrapper">
-                            <Image src={tabImage} />
+                            <Image src={tabImage2} />
                         </div>
                         <div className="image-wrapper">
                             <Image src={tabImage} />
@@ -77,7 +79,7 @@ function Category() {
                 <TabPanel hidden={selectedTab !== 'Arts'}>
                     <div className="pane-image">
                         <div className="image-wrapper">
-                            <Image src={tabImage} />
+                            <Image src={tabImage3} />
                         </div>
                         <div className="image-wrapper">
                             <Image src={tabImage} />
