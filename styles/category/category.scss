@@ -40,3 +40,19 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.pane-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2em;
+    margin-top: 3em;
+    @include for-phone-only {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.image-wrapper{
+    & img{
+         border-radius: 10px;
+    }
+}

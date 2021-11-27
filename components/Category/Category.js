@@ -1,6 +1,7 @@
 import React from 'react'
 import { TabPanel, useTabs } from 'react-headless-tabs';
-
+import tabImage from '../../public/Hallography/Professional Portraits/DSC_0017.jpg'
+import Image from 'next/image'
 function Category() {
     const [selectedTab, setSelectedTab] = useTabs([
         'Portrait',
@@ -48,9 +49,44 @@ function Category() {
                 </TabSelector>
             </nav>
             <div className="p-4">
-                <TabPanel hidden={selectedTab !== 'Portrait'}>Portrait</TabPanel>
-                <TabPanel hidden={selectedTab !== 'Wedding'}>Wedding</TabPanel>
-                <TabPanel hidden={selectedTab !== 'Arts'}>Arts</TabPanel>
+                <TabPanel hidden={selectedTab !== 'Portrait'}>
+                    <div className="pane-image">
+                        <div className="image-wrapper">
+                            <Image src={tabImage} />
+                        </div>
+                        <div className="image-wrapper">
+                            <Image src={tabImage} />
+                        </div>
+                        <div className="image-wrapper">
+                            <Image src={tabImage} />
+                        </div>
+                    </div>
+                </TabPanel>
+                <TabPanel hidden={selectedTab !== 'Wedding'}>
+                    <div className="pane-image">
+                        <div className="image-wrapper">
+                            <Image src={tabImage} />
+                        </div>
+                        <div className="image-wrapper">
+                            <Image src={tabImage} />
+                        </div>
+                        <div className="image-wrapper">
+                            <Image src={tabImage} />
+                        </div>
+                    </div></TabPanel>
+                <TabPanel hidden={selectedTab !== 'Arts'}>
+                    <div className="pane-image">
+                        <div className="image-wrapper">
+                            <Image src={tabImage} />
+                        </div>
+                        <div className="image-wrapper">
+                            <Image src={tabImage} />
+                        </div>
+                        <div className="image-wrapper">
+                            <Image src={tabImage} />
+                        </div>
+                    </div>
+                </TabPanel>
             </div>
         </div>
     )
