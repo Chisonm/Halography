@@ -5,12 +5,12 @@ const MenuItems = [
       active: true,
     },
     {
-      label: 'Work',
+      label: 'Works',
       url: "/work",
       active: false,
     },
     {
-      label: 'Skills',
+      label: 'About',
       url: "/skills",
       active: false,
     },

@@ -2,6 +2,11 @@
     width: 80%;
     margin: 0 auto;
     padding: 2em 0;
+    @include for-tablet-portrait-up {
+        width: 95%;
+        margin: 0 auto;
+        padding: 1em 0;
+    }
 }
 @include for-phone-only {
     .navbar-container{
@@ -22,26 +27,29 @@
     font-weight: 900;
 }
 
+
+
 .nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     & .nav-link{
-         margin: 0 1em;
+         margin: 0 2.5em;
          @include for-phone-only{
-            margin: 0 .4em;
+            margin: 0 1em;
         }
          & .link-item{
              color: $link-color-inactive;
-             font-size: .9em;
+             font-size: 1em;
              transition: .4s ease;
             //  font-family: 'Poppins', sans-serif;
+            position: relative;
              &:hover{
                 color: $accent-color;
              }
              @include for-phone-only{
-                font-size: .7em;
-                font-weight: 900;
+                font-size: .8em;
+                font-weight: 700;
             }
          }
          & .current-link{

@@ -1,10 +1,18 @@
 import React from 'react'
+import { motion } from "framer-motion"
 
 function Button({text,style,textColor}) {
     return (
-        <a className="btn" style={style} textColor={textColor}>
-            {text}
-        </a>
+        
+        <div className="btn-center">
+           <motion.a
+            className="btn" style={style} textColor={textColor}
+            whileHover={{ scale: 1.2 }}
+            onHoverStart={e => {}}
+            onHoverEnd={e => {}}>
+                {text}
+            </motion.a>
+        </div>
     )
 }
 

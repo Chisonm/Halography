@@ -28,8 +28,11 @@
                 @include for-phone-only {
                     font-size: 2em;
                     // letter-spacing: .2em;
-
                 }
+                @include for-tablet-portrait-up{
+                    font-size: 3em;
+                }
+               
             }
             & p{
                 color: $accent-color;
@@ -42,6 +45,9 @@
                 @include for-phone-only {
                     font-size: 1em;
                     letter-spacing: 1px;
+                }
+                @include for-tablet-portrait-up{
+                    font-size: 1em;
                 }
             }
 }
@@ -58,7 +64,6 @@
         & img{
             border-radius: 0px;
         }
-
     }
 }
 
