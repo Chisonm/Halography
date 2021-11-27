@@ -48,8 +48,8 @@
                 color: $accent-color;
              }
              @include for-phone-only{
-                font-size: .8em;
-                font-weight: 700;
+                font-size: .7em;
+                font-weight: 600;
             }
          }
          & .current-link{
