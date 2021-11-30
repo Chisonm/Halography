@@ -18,12 +18,20 @@
         font-size: 35px;
         text-align: center;
         letter-spacing: 0.08em;
-        color: #434343;
+        color: #434343; 
+    }
+
+    & p{
+        color: lighten(#434343, 30)
     }
 }
 .see-all{
     text-align: right;
     margin-bottom: 2em;
+
+    & a{
+        font-size: 14px;
+    }
 }
 
 .gallery-grid{

@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function Gallery() {
     return (
@@ -10,7 +11,7 @@ function Gallery() {
                     <p>checkout some of our recent work.</p>
                 </div>
                 <div className="see-all">
-                    <span>see all &#x2192;</span>
+                    <Link href="/">see all &#8594;</Link>
                 </div>
                 <div className="gallery-grid">
                     <div className="grid-item-1 grid-image-wrapper">
