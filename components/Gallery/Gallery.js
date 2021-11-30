@@ -11,7 +11,8 @@ function Gallery() {
                     <p>checkout some of our recent work.</p>
                 </div>
                 <div className="see-all">
-                    <Link href="/">see all &#8594;</Link>
+                    <Link href="/">see all</Link>
+                    <span>&#8594;</span>
                 </div>
                 <div className="gallery-grid">
                     <div className="grid-item-1 grid-image-wrapper">

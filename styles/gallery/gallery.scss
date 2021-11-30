@@ -9,10 +9,10 @@
 }
 .recent-work{
     text-align: center;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 
     & h1{
-        font-family: Poppins;
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 900;
         font-size: 35px;
@@ -22,7 +22,8 @@
     }
 
     & p{
-        color: lighten(#434343, 30)
+        color: lighten(#434343, 30);
+        font-size: 14px;
     }
 }
 .see-all{
@@ -31,7 +32,13 @@
 
     & a{
         font-size: 14px;
+        margin-right: 5px;
+        color: #434343;
     }
+    & span{
+        font-size: 20px;
+        font-weight: 700;
+        }
 }
 
 .gallery-grid{
