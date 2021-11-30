@@ -1,12 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import phoebeImage from '../../public/FineArtPortraits/DSC_0066.jpg'
-import girl2Image from '../../public/Hallography/ProfessionalPortraits/DSC_0030-Recovered-Recovered.jpg'
-import girl3Image from '../../public/FineArtPortraits/FINEAERT.jpg'
-import girl4Image from '../../public/Hallography/ProfessionalPortraits/DSC_0017.jpg'
-import girl5Image from '../../public/FineArtPortraits/MFK_8113-Recovered.jpg'
-import girl6Image from '../../public/Hallography/ProfessionalPortraits/DSC_0070.jpg'
-import girl7Image from '../../public/Hallography/ProfessionalPortraits/MFK_8086-Recovered.jpg'
 
 function Gallery() {
     return (
