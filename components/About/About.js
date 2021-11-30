@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Button from '../Button/Button'
-import aboutImage from '../../public/Hallography/Professional Portraits/DSC_0017.jpg';
+import aboutImage from '../../public/Hallography/ProfessionalPortraits/DSC_0017.jpg';
 
 function About() {
     return (

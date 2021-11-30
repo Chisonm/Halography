@@ -1,8 +1,8 @@
 import React from 'react'
 import { TabPanel, useTabs } from 'react-headless-tabs';
-import tabImage from '../../public/Hallography/Professional Portraits/DSC_0017.jpg'
-import tabImage2 from '../../public/Hallography/Professional Portraits/DSC_0026.jpg'
-import tabImage3 from '../../public/Hallography/Professional Portraits/DSC_0030-Recovered-Recovered.jpg'
+import tabImage from '../../public/Hallography/ProfessionalPortraits/DSC_0017.jpg'
+import tabImage2 from '../../public/Hallography/ProfessionalPortraits/DSC_0026.jpg'
+import tabImage3 from '../../public/Hallography/ProfessionalPortraits/DSC_0030-Recovered-Recovered.jpg'
 import Image from 'next/image'
 function Category() {
     const [selectedTab, setSelectedTab] = useTabs([

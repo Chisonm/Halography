@@ -11,7 +11,8 @@
 .gallery-grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 1em;
+    gap: .6em;
+    margin-inline: auto;
 }
 .grid-image-wrapper{
     & img{
@@ -19,13 +20,75 @@
         // height: 100%;
         // width: 100%;
     }
+    width: 100%;
+    position: relative;
+    height: 100%;
 }
+
 .grid-item-1{
-    grid-row:  1 / span 3;
+    grid-row: 1 / span 2;
+
+    background: url('../../public/FineArtPortraits/DSC_0066.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 85vh;
+    background-color: red;
 }
 .grid-item-2{
-    grid-row:  1;
+    grid-row-start: 1;
+
+    background: url('../../public/FineArtPortraits/FINEAERT.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 50vh;
+    background-color: red;
 }
+
 .grid-item-3{
-    grid-row:  1;
+    grid-row-start:span 3 / span 5;
+    background: url('../../public/Hallography/ProfessionalPortraits/DSC_0030-Recovered-Recovered.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 53vh;
 }
+
+.grid-item-4{
+    // grid-row-start: span 2;
+    background: url('../../public/Hallography/ProfessionalPortraits/DSC_0017.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 53vh;
+}
+
+.grid-item-5{
+    grid-row-start:span 3 / span 5;
+    background: url('../../public/FineArtPortraits/MFK_8113-Recovered.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 30vh;
+}
+
+.grid-item-6{
+    grid-row-start:span 3 / span 5;
+    background: url('../../public/Hallography/ProfessionalPortraits/DSC_0070.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 30vh;
+}
+.grid-item-7{
+    grid-row-start:span 3 / span 5;
+    background: url('../../public/Hallography/ProfessionalPortraits/MFK_8086-Recovered.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 30vh;
+}
+
+
+

@@ -1,7 +1,7 @@
 import React from 'react'
 import { heroData } from './heroData'
 import Image from 'next/image'
-import heroImage from "../../public/Hallography/Professional Portraits/MFK_7997.jpg";
+import heroImage from "../../public/Hallography/ProfessionalPortraits/MFK_7997.jpg";
 import Button from '../Button/Button';
 
 
