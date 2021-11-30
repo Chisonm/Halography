@@ -5,6 +5,13 @@ function Gallery() {
     return (
         <div className="gallery-section">
             <div className="grid-container">
+                <div className="recent-work">
+                    <h1>Recent Works</h1>
+                    <p>checkout some of our recent work.</p>
+                </div>
+                <div className="see-all">
+                    <span>see all &#x2192;</span>
+                </div>
                 <div className="gallery-grid">
                     <div className="grid-item-1 grid-image-wrapper">
                        {/* <Image src={phoebeImage} alt="phoebe" layout="intrinsic" /> */}
