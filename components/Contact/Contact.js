@@ -54,7 +54,7 @@ function Contact() {
                                     <textarea type="text" className="form-control" placeholder="message"></textarea>
                                 </div>
                                 
-                                <button type="submit" onClick={handleSubmit}>Send message</button>
+                                <button type="submit" className="contact-form-btn" onClick={handleSubmit}>Send message</button>
                             </form>
                         </div>
                     </div>
