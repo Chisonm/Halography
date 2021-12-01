@@ -1,0 +1,115 @@
+.contact-container{
+    width: 90%;
+    margin: 4em auto;
+    // padding: 3em;
+}
+.contact-header{
+    text-align: left;
+
+    & h1{
+        color: $accent-color;
+        letter-spacing: 0.08em;
+        font-weight: 900;
+        font-size: 3em;
+        font-family: 'Poppins';
+
+        @include for-phone-only{
+            font-size:1.5em;
+            line-height: 1.2;
+            margin-bottom: .3em;
+        }
+    }
+
+    & p{
+        color: lighten($accent-color,10);
+        font-size: 13px;
+        max-width: 350px;
+        margin-bottom: 1em;
+        @include for-phone-only{
+            font-size: 12px;
+
+        }
+    }
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3em;
+
+    @include for-phone-only{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    & .contact-info{
+        padding: .5em;
+        @include for-phone-only{
+            padding: 0;
+        }
+        & .icon-wrapper{
+            display: flex;
+            justify-content: stretch;
+            align-items: center;
+            margin-bottom: 1em;
+            & a{
+                margin-left: .8em;
+                color: $accent-color;
+            }
+        }
+    }
+}
+
+.input-wrapper{
+    margin-bottom: 1em;
+    color: $accent-color;
+}
+
+.form-control{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 1em .5em;
+    width: 100%;
+    display: block;
+    outline: none;
+    margin-top: .4em;
+    color: white;
+    transition: .4s ease-in;
+    font-size: 14px;
+
+    &:focus{
+        border: 1px solid $accent-color;
+    }
+}
+.contact-form{
+    padding: 0 2em;
+    
+    @include for-phone-only{
+        padding: 0;
+    }
+}
+
+textarea{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 1em .5em;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    font-size: 14px;
+    
+}
+
+button{
+    border-radius: 5px;
+    width: 100%;
+    background-color: $accent-color;
+    color: $secondary-color;
+    padding: .6em .5em;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}

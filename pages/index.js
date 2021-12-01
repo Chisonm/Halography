@@ -3,6 +3,7 @@ import Image from 'next/image'
 import About from '../components/About/About'
 import Category from '../components/Category/Category'
 import Gallery from '../components/Gallery/Gallery'
+import Contact from '../components/Contact/Contact'
 import Hero from '../components/Hero/Hero'
 import HomeTransition from '../Hoc/HomeTransition'
 
@@ -18,6 +19,7 @@ function Home() {
       <About />
       <Category />
       <Gallery />
+      <Contact />
     </div>
   )
 }
