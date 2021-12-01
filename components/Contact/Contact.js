@@ -32,11 +32,11 @@ function Contact() {
                             </div>
                             <div className="icon-wrapper">
                                 <Image src={facebookIcon} alt="facebook" width={30} />
-                                <Link href="/">@Halography</Link>
+                                <Link href="/">@Halography_</Link>
                             </div>
                             <div className="icon-wrapper">
                                 <Image src={instagramIcon} alt="instagram" width={30} />
-                                <Link href="/">@Halography</Link>
+                                <Link href="/">@Halography_</Link>
                             </div>
                         </div>
                         <div className="contact-form">
