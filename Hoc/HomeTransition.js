@@ -1,6 +1,9 @@
+import react from 'react'
 import { motion } from "framer-motion"
 
 const HomeTransition = (OriginalComponent) => {
+  // displayName: 'HomeTransition',
+
   return () => (
     <>
       <OriginalComponent />
@@ -19,7 +22,8 @@ const HomeTransition = (OriginalComponent) => {
         transition={{ duration: 1, ease: "easeInOut" }}
       />
     </>
-  );
+  )
+
 };
 
 export default HomeTransition;
