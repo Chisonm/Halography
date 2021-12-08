@@ -31,6 +31,10 @@
     color: black;
     font-weight: 600;
     cursor: pointer;
+
+    @include for-phone-only{
+        font-weight: 400;
+    }
 }
 .current-link{
     color: $secondary-color;
