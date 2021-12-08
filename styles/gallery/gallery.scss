@@ -46,6 +46,10 @@
     grid-template-columns: repeat(4,1fr);
     gap: .6em;
     margin-inline: auto;
+
+    @include for-phone-only{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 .grid-image-wrapper{
     & img{
@@ -93,6 +97,9 @@
     background-size: cover;
     border-radius: 10px;
     height: 53vh;
+    @include for-phone-only{
+        height: 40vh;
+    }
 }
 
 .grid-item-5{
@@ -102,6 +109,9 @@
     background-size: cover;
     border-radius: 10px;
     height: 30vh;
+    @include for-phone-only{
+        height: 40vh;
+    }
 }
 
 .grid-item-6{
@@ -119,6 +129,9 @@
     background-size: cover;
     border-radius: 10px;
     height: 30vh;
+    @include for-phone-only{
+        height: 30vh;
+    }
 }
 
 
