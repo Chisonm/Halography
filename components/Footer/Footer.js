@@ -28,7 +28,7 @@ function Footer() {
                 </ul>
             </div>
             <div className="designed-by">    
-                 {/* <p>Designed with ❤️ by daniel chisom.</p> */}
+                 <p>Designed with ❤️ by Designeiye.</p>
                 <ul className="social-link">
                     <li>
                         <Link href="/">  
