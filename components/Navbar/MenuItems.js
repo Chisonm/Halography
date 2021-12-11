@@ -5,13 +5,13 @@ const MenuItems = [
       active: true,
     },
     {
-      label: 'Works',
-      url: "/work",
+      label: 'About',
+      url: "/about",
       active: false,
     },
     {
-      label: 'About',
-      url: "/skills",
+      label: 'Works',
+      url: "/work",
       active: false,
     },
   ];
